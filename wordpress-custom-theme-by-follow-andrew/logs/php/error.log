@@ -1,0 +1,49 @@
+[12-Jun-2023 13:06:16 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\functions.php on line 11
+[12-Jun-2023 13:06:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[12-Jun-2023 13:06:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[12-Jun-2023 13:07:57 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\functions.php on line 11
+[12-Jun-2023 13:08:03 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\functions.php on line 11
+[14-Jun-2023 08:04:03 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Jun-2023 08:04:56 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Jun-2023 08:05:27 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Jun-2023 08:05:58 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Jun-2023 08:06:10 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Jun-2023 08:06:48 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Jun-2023 08:14:25 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Jun-2023 08:18:31 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Jun-2023 08:18:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function function_exist() in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\header.php:32
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\template.php(718): load_template('C:\\Users\\alaaa\\...', true, Array)
+#2 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\front-page.php(2): get_header()
+#4 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\alaaa\\...')
+#5 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-blog-header.php(19): require_once('C:\\Users\\alaaa\\...')
+#6 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\index.php(17): require('C:\\Users\\alaaa\\...')
+#7 {main}
+  thrown in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\header.php on line 32
+[14-Jun-2023 08:18:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function function_exist() in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\header.php:32
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\template.php(718): load_template('C:\\Users\\alaaa\\...', true, Array)
+#2 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\front-page.php(2): get_header()
+#4 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\alaaa\\...')
+#5 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-blog-header.php(19): require_once('C:\\Users\\alaaa\\...')
+#6 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\index.php(17): require('C:\\Users\\alaaa\\...')
+#7 {main}
+  thrown in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\header.php on line 32
+[14-Jun-2023 08:21:00 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Jun-2023 09:37:01 UTC] PHP Parse error:  syntax error, unexpected identifier "tags" in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\template-parts\content-article.php on line 5
+[14-Jun-2023 09:38:53 UTC] PHP Parse error:  syntax error, unexpected identifier "fa", expecting ")" in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\template-parts\content-article.php on line 5
+[15-Jun-2023 08:29:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function commecnts_number() in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\template-parts\content-archive.php:10
+Stack trace:
+#0 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\template.php(785): require()
+#1 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\template.php(718): load_template('C:\\Users\\alaaa\\...', false, Array)
+#2 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\index.php(13): get_template_part('template-parts/...', 'archive')
+#4 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\alaaa\\...')
+#5 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-blog-header.php(19): require_once('C:\\Users\\alaaa\\...')
+#6 C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\index.php(17): require('C:\\Users\\alaaa\\...')
+#7 {main}
+  thrown in C:\Users\alaaa\Local Sites\wordpress-custom-theme-by-follow-andrew\app\public\wp-content\themes\followandrew\template-parts\content-archive.php on line 10
